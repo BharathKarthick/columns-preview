@@ -79,7 +79,7 @@ body {
     background: transparent;
 }
 
-@media screen and (max-width: 375px) and (max-width: 700px){
+@media screen and (min-width: 375px) and (max-width: 700px){
     .main {
         grid-template-columns: 1fr;
         margin: 2rem .5rem;
