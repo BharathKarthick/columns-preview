@@ -79,14 +79,10 @@ body {
     background: transparent;
 }
 
-@media only screen and (max-width: 768px) {
+
+@media only screen and (max-width: 375px) {
     .main {
         grid-template-columns: 1fr;
-    }
-}
-
-@media only screen and (max-width: 425px) {
-    .main {
         margin: 2rem .4rem;
     }
 }
