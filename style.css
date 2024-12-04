@@ -82,5 +82,6 @@ body {
     .main {
         grid-template-columns: 1fr;
         margin: 2rem .5rem;
+        max-width: 470px;
     }
 }
